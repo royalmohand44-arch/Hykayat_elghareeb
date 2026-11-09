@@ -1,26 +1,23 @@
-# حكايات الغريب - Front-End Study Experience
+# MR1 — Hikayat AlGharib 2.0
 
-موقع تعليمي عربي تفاعلي عن قصة **حكايات الغريب** لجمال الغيطاني.
+Static multi-page Arabic literary study website.
 
-## التشغيل
+## Pages
+- `index.html` — Home
+- `story.html` — Story
+- `characters.html` — Characters
+- `timeline.html` — 11 timeline stops + filters
+- `analysis.html` — Literary analysis
+- `review.html` — Essay questions and answers
+- `quiz.html` — Interactive 5-question quiz
 
-افتح `index.html` مباشرة في المتصفح. لا يحتاج المشروع إلى Backend أو قاعدة بيانات أو مفاتيح API أو تثبيت حزم.
+## Required font file
+The site is configured to use the font you uploaded. To keep this package from duplicating the font file, place your original `TheYearofTheCamel-Bold.otf.ttf` inside the `assets/` folder before deploying. The CSS already points to that exact filename.
 
-## الملفات
+## Instagram
+https://www.instagram.com/iammuhannd/
 
-- `index.html` - بنية الموقع والمحتوى.
-- `css/style.css` - الهوية البصرية والتجاوب مع الشاشات.
-- `js/main.js` - قائمة الهاتف، حركات الظهور، فلاتر خط الأحداث، وحساب الاختبار.
-- `assets/suez-cover-art.jpg` - قصاصة فنية من غلاف ملف القصة المرفق.
+## Brand
+MR1
 
-## التفاعلات
-
-- تنقل داخلي وروابط أقسام الصفحة.
-- قائمة هاتف قابلة للفتح والإغلاق.
-- فلاتر لمحطات القصة حسب نوع الدليل.
-- حركات ظهور تدريجية عند التمرير.
-- اختبار من خمسة أسئلة مع تصحيح فوري وشرح لكل إجابة ونتيجة نهائية وإعادة المحاولة.
-
-## ملاحظة المحتوى
-
-الموقع يعرض خلاصة وتحليلًا تعليميًا مستندًا إلى ملف القصة وملف التحليل المرفقين، وليس نسخة كاملة من نص القصة.
+No backend or database required. Deploy as a static project on Vercel.
