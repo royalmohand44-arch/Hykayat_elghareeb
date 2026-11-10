@@ -1,0 +1,1 @@
+export function toast(message){const region=document.getElementById('toast-region');if(!region)return;const item=document.createElement('div');item.className='toast';item.textContent=message;region.append(item);requestAnimationFrame(()=>item.classList.add('toast--show'));setTimeout(()=>{item.classList.remove('toast--show');setTimeout(()=>item.remove(),250)},2600)}

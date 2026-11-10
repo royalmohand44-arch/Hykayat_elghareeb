@@ -1,0 +1,1 @@
+import {storage} from '../core/storage.js';export function initTheme(){const saved=storage.get('theme','dark');document.documentElement.dataset.theme=saved;document.querySelector('[data-theme-toggle]')?.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;storage.set('theme',next)})}

@@ -1,0 +1,1 @@
+import {initReaderTools} from '../features/reader-tools.js';import {initReadingProgress} from '../features/reading-progress.js';export function initStory(){if(document.body.dataset.page==='story'){initReaderTools();initReadingProgress()}}

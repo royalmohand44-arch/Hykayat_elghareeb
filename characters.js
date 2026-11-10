@@ -1,0 +1,1 @@
+export function initCharacters(){if(document.body.dataset.page!=='characters')return;document.querySelectorAll('.character-card').forEach(card=>card.addEventListener('mouseenter',()=>card.classList.add('is-active')));document.querySelectorAll('.character-card').forEach(card=>card.addEventListener('mouseleave',()=>card.classList.remove('is-active')))}
