@@ -1,0 +1,1 @@
+.story-article{counter-reset:chapter}.story-chapter{counter-increment:chapter}.story-chapter:last-child{border-bottom:0}
