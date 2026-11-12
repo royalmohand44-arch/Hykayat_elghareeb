@@ -1,1 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 540" fill="none"><defs><linearGradient id="paper" x1="100" y1="90" x2="470" y2="470"><stop stop-color="#203d63"/><stop offset="1" stop-color="#0a1424"/></linearGradient><linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58dfff"/><stop offset="1" stop-color="#2673e7"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="22"/></filter></defs><circle cx="320" cy="265" r="180" fill="#177cff" opacity=".13" filter="url(#blur)"/><path d="M95 370h430" stroke="#2469b9" opacity=".5"/><path d="M125 370V295l40-30 35 30v75M185 370V245l44-40 44 40v125M420 370V270l40-25 35 25v100" stroke="#3a7cc6" stroke-width="3" opacity=".38"/><path d="M255 365V105q0-13 13-13h180q13 0 13 13v260z" fill="url(#paper)" stroke="#4d9eff" stroke-width="2"/><path d="M281 135h150M281 159h125M281 183h140M281 207h110" stroke="#6ab6ff" stroke-width="5" opacity=".35"/><path d="M281 245h150M281 267h130M281 289h146" stroke="#6ab6ff" stroke-width="3" opacity=".2"/><rect x="294" y="310" width="124" height="33" rx="5" fill="#123b6c" stroke="#57c8ff"/><text x="356" y="332" text-anchor="middle" font-family="Arial" font-weight="700" font-size="17" fill="#8de7ff">MR1 / 07</text><path d="M110 405h395" stroke="url(#glow)" stroke-width="2"/><circle cx="110" cy="405" r="4" fill="#55e5ff"/><circle cx="505" cy="405" r="4" fill="#55e5ff"/><path d="M165 425l30-18h76l25 18M366 425l23-18h55l30 18" stroke="#3b8fe8" stroke-width="2" opacity=".7"/><path d="M336 63v-28m-10 10 10-10 10 10" stroke="#55dfff" stroke-width="2" stroke-linecap="round"/><circle cx="336" cy="26" r="3" fill="#55dfff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 570" fill="none">
+<defs>
+ <linearGradient id="foil" x1="150" y1="70" x2="515" y2="470" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#fff0bf"/><stop offset=".28" stop-color="#d8b66c"/><stop offset=".62" stop-color="#a87b35"/><stop offset="1" stop-color="#f3d894"/>
+ </linearGradient>
+ <linearGradient id="paper" x1="210" y1="100" x2="465" y2="455" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#292216"/><stop offset=".55" stop-color="#17140e"/><stop offset="1" stop-color="#0c0b08"/>
+ </linearGradient>
+ <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="matrix(0 245 -245 0 344 280)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#cda95c" stop-opacity=".2"/><stop offset=".65" stop-color="#a47a35" stop-opacity=".06"/><stop offset="1" stop-color="#a47a35" stop-opacity="0"/>
+ </radialGradient>
+ <filter id="soft" x="0" y="0" width="660" height="570" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="24"/></filter>
+ <filter id="shadow" x="130" y="42" width="430" height="485" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="18"/></filter>
+ <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#e5c67e" fill-opacity=".18"/></pattern>
+</defs>
+<circle cx="340" cy="276" r="225" fill="url(#halo)"/>
+<circle cx="340" cy="276" r="207" stroke="#c9a45d" stroke-opacity=".24"/>
+<circle cx="340" cy="276" r="188" stroke="#f1d693" stroke-opacity=".12" stroke-dasharray="2 10"/>
+<circle cx="340" cy="276" r="164" stroke="#c9a45d" stroke-opacity=".18"/>
+<path d="M340 26v47M340 479v48M90 276h47M543 276h47M163 99l33 33M484 420l33 33M163 453l33-33M484 132l33-33" stroke="url(#foil)" stroke-opacity=".55"/>
+<path d="M95 402h466M133 431h394" stroke="#b9954f" stroke-opacity=".22"/>
+<path d="M112 401v-62l25-22 28 22v62M166 401v-92l36-29 35 29v92M440 401v-80l34-27 35 27v80M510 401v-52l19-17 19 17v52" stroke="#b8944c" stroke-opacity=".3" stroke-width="2"/>
+<path d="M232 425V109q0-17 17-17h195q17 0 17 17v316z" fill="#000" fill-opacity=".48" filter="url(#shadow)"/>
+<path d="M220 414V105q0-18 18-18h203q18 0 18 18v309z" fill="url(#paper)" stroke="url(#foil)" stroke-width="2.2"/>
+<path d="M220 105q0-18 18-18h203q18 0 18 18v20H220z" fill="#c19a50" fill-opacity=".16"/>
+<path d="M244 141h190" stroke="#e8cb86" stroke-opacity=".72" stroke-width="1.4"/>
+<path d="M244 166h138M244 190h170M244 214h154" stroke="#d6b66e" stroke-opacity=".34" stroke-width="3"/>
+<path d="M244 259h188M244 281h158M244 303h174M244 325h132" stroke="#d6b66e" stroke-opacity=".2" stroke-width="2"/>
+<path d="M244 352h188" stroke="#d9b76c" stroke-opacity=".4" stroke-width="1"/>
+<rect x="267" y="365" width="139" height="29" rx="3" fill="#211a0d" stroke="#caa75d" stroke-opacity=".72"/>
+<text x="336.5" y="384.5" text-anchor="middle" fill="#ecd28f" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">MR1 / FILE 07</text>
+<path d="M459 87v327" stroke="#f4d994" stroke-opacity=".5"/>
+<path d="M470 104l15 15-15 15" stroke="#d6b66e" stroke-opacity=".48"/>
+<circle cx="448" cy="420" r="39" fill="#11100b" stroke="url(#foil)" stroke-width="1.7"/>
+<circle cx="448" cy="420" r="30" stroke="#d8b66d" stroke-opacity=".4" stroke-dasharray="2 4"/>
+<path d="M448 395l6 16 16 6-16 6-6 16-6-16-16-6 16-6z" fill="url(#foil)"/>
+<path d="M150 465h390" stroke="url(#foil)" stroke-opacity=".7" stroke-width="1.4"/>
+<circle cx="150" cy="465" r="3" fill="#f2d995"/><circle cx="540" cy="465" r="3" fill="#f2d995"/>
+<text x="340" y="510" text-anchor="middle" fill="#d7b66f" fill-opacity=".72" font-family="Arial,sans-serif" font-size="10" letter-spacing="5">THE HUMAN TRACE</text>
+<rect width="660" height="570" fill="url(#micro)" opacity=".22"/>
+</svg>
